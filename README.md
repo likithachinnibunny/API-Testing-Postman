@@ -1,22 +1,29 @@
 # API Testing using Postman
 
-## Description
-This project demonstrates API testing using Postman for validating REST APIs.
+## Overview
+This repository demonstrates API testing for REST endpoints using Postman.
 
 ## APIs Tested
-- GET Users
-- POST Login
-- PUT Update User
+- GET /users
+- POST /login
 
-## Test Scenarios
-- Validate status codes (200, 400, 404)
-- Validate response body
-- Validate response time
+## Test Coverage
+- Status Code Validation
+- Response Structure Validation
+- Negative Testing
+- Response Time Checks
 
-## Tools Used
+## Example API
+https://jsonplaceholder.typicode.com/users
+
+## Tools
 - Postman
+- JSON Validator
 
-## My Contribution
-- Created API test cases
-- Validated responses and status codes
-- Performed negative testing
+## How to Run
+1. Open Postman
+2. Send GET request to API
+3. Validate response
+
+## Author
+Likhitha
